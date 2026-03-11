@@ -194,6 +194,3 @@ ggsave(
   dpi      = 300,
   bg       = "white"
 )
-
-# Final check: Verify that PNG output was saved to Question_2 folder
-cat("\nPNG output saved to: Question_2/ae_severity_chart.png\n")
