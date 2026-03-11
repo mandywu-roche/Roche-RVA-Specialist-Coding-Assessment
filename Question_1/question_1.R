@@ -287,6 +287,3 @@ teae_gt %>%
     subtitle = "Safety Population — by System Organ Class and Preferred Term"
   ) %>%
   gt::gtsave(file = "Question_1/teae_summary.html")
-
-# Final check: Verify that HTML output was saved to Question_1 folder
-cat("\nHTML output saved to: Question_1/teae_summary.html\n")
